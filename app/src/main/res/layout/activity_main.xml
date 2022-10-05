@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00E1FF"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/round"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round"
+        android:drawableStart="@drawable/ic_android"
+        android:text="Round EditText"
+        android:paddingStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"
+        android:drawableStart="@drawable/ic_mail_foreground"
+        android:paddingStart="10dp"
+        android:background="@drawable/rectangle"
+        android:text="Rectangle EditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/oval"
+        android:drawableStart="@drawable/ic_person_foreground"
+        android:paddingStart="50dp"
+        android:text="Oval EditText"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
